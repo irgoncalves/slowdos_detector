@@ -27,7 +27,7 @@ https://pkgs.org/download/tshark
 
 slowdos_dectector.py -f <mypcap.pcap> -s <myserverip>
 
-### High Level Description of how it works:
+### High Level Description on how it works:
 
 It opens the pcap file and use tshark to verify how many TCP sessions for the serverip it has.
 Once this is identified, if there is any session, it still uses tshark to break the pcap into small pcaps per TCP stream.
