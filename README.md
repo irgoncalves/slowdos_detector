@@ -25,7 +25,10 @@ https://pkgs.org/download/tshark
 
 ### Usage
 
-slowdos_dectector.py -f <mypcap.pcap> -s <myserverip>
+slowdos_dectect.py -f <mypcap.pcap> -s <myserverip> [-p]
+     -f pcap file to be analyzed
+     -s server IP address being under attack
+     -p print all offending TCP sessions along with a sample payload
 
 ### High Level Description on how it works:
 
